@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zo&_o$io-8lia(wxao7cb*zaw4+2d4bx_h9a)(cn^yx=(1%ps3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['194.87.93.60', 'ne1ghost.ru']
 
 
 # Application definition
@@ -118,5 +118,5 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-
+STATIC_ROOT = '/home/netghost/git/mysite-ne1ghost.ru-/static'
 STATIC_URL = '/static/'
